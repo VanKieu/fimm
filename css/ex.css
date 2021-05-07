@@ -1,0 +1,93 @@
+body {
+    background: #333;
+    color: white;
+}
+.slider-container {
+    max-width: 1000px;
+    padding: 2rem 3rem;
+    background: #e6e6e6;
+    margin: 2rem auto 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+.slider-container:before {
+    content: ".slider-container";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: blue;
+}
+img {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+}
+.my-slider {
+    position: relative;
+}
+.slider-item {
+    background: grey;
+    border-right: 2px solid #333;
+    padding: 1.5rem 0.75rem;
+    position: relative;
+}
+.slider-item:before {
+    content: ".slider-item";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: blue;
+}
+.slider-item:hover {
+    cursor: pointer;
+}
+.controls {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    background: #333;
+    width: 100%;
+    top: 50%;
+    transform: translatey(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controls:focus {
+    outline: none;
+}
+.controls li:hover {
+    cursor: pointer;
+}
+.card {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 200px;
+    color: #333;
+    background: white;
+    border-radius: 5px;
+    padding-bottom: 0.75rem;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.card:before {
+    content: ".card";
+    position: absolute;
+    bottom: 0;
+    color: blue;
+}
+.card img {
+    margin-bottom: 0.25rem;
+}
+.card h2 {
+    margin: 0 0 0.25rem;
+}
+.card p {
+    margin: 0;
+    padding: 0 0.5rem;
+}
