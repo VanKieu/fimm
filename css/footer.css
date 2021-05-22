@@ -1,0 +1,28 @@
+/*==========================FOOTER===========================*/
+.footer_area {
+    background-color: #333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer_social {
+    display: inline-block;
+}
+.footer_social span {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+.footer_menu ul li {
+    display: inline-block;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.footer_menu ul li + li {
+    margin-left: 30px;
+}
+
+@media (max-width: 732px) {
+    .footer_wrapper {
+        text-align: center;
+    }
+}
